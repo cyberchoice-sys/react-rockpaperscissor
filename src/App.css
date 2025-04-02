@@ -1,9 +1,13 @@
 
-.box{
-  border:1px solid black;
-  width: 500px;
-}
 
+.box {
+  border: 5px solid; 
+  margin: 10px;
+  transition: border-color 0.3s ease;
+  align-items: center; /*Horizontally center */
+  text-align: center; 
+ 
+}
 .item-img{
   width:300px;
 }
@@ -11,4 +15,17 @@
 .main{
   display: flex;
   justify-content:center;
+}
+
+.win {
+  border: 10px sold green;
+  color:green;
+}
+.lose {
+  border: 10px sold red;
+  color:red;
+}
+.tie {
+  border: 10px sold black;
+  color:black;
 }
